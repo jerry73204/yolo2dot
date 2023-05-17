@@ -1,6 +1,5 @@
 use itertools::Itertools;
-use serde::Deserialize;
-use serde::Serialize;
+use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 #[serde(from = "SerializedModel", into = "SerializedModel")]

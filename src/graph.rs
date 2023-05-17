@@ -1,6 +1,6 @@
 use std::borrow::Cow;
 
-use dot::{Edges, GraphWalk, Id, Labeller, Nodes, LabelText};
+use dot::{Edges, GraphWalk, Id, LabelText, Labeller, Nodes};
 
 use crate::format::Layer;
 
