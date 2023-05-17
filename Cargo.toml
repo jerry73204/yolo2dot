@@ -2,8 +2,13 @@
 name = "yolo2dot"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "A visualizing tool to plot model architecture graph for YOLO .yaml files."
+categories = ["science", "command-line-utilities"]
+license = "MIT"
+documentation = "https://docs.rs/yolo2dot"
+homepage = "https://github.com/jerry73204/yolo2dot.git"
+repository = "https://github.com/jerry73204/yolo2dot.git"
+readme = "README.md"
 
 [dependencies]
 anyhow = "1.0.71"
